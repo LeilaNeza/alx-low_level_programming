@@ -3,7 +3,7 @@
 
 /**
  * main - check the code
- *
+ * _abs - finds absolute value
  * Return: Always 0.
  */
 int main(void)
