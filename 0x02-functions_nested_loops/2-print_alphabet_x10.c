@@ -2,7 +2,7 @@
 
 /**
  * print_alphabet_x10 - prints the alphabet 10 times
- * print_alphabet - calling function to print the alphabet
+ * _putchar - function to print characters
  */
 
 void print_alphabet_x10(void)
@@ -11,6 +11,12 @@ void print_alphabet_x10(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		print_alphabet();
+		char ch = 'a';
+
+		while (ch <= 'z')
+		{
+			_putchar(ch);
+		}
+		_putchar('\n');
 	}
 }
